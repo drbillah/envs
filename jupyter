@@ -1,0 +1,15 @@
+
+(base) mbillah@mbillah:~$ conda install -c conda-forge notebook
+(base) mbillah@mbillah:~$ conda install -c conda-forge nb_conda_kernels
+(base) mbillah@mbillah:~$ conda install -c conda-forge jupyter_contrib_nbextensions
+
+(base) mbillah@mbillah:~$ conda create --name smap python==3.7.3 pip ipykernel
+(base) mbillah@mbillah:~$ conda activate smap
+(smap) mbillah@mbillah:~$ conda install nb_conda
+(smap) mbillah@mbillah:~$ conda install cudatoolkit=10.1
+(smap) mbillah@mbillah:~$ sudo apt install libudev1
+(smap) mbillah@mbillah-HP-Laptop-15s-dy0xxx:~$ conda install matplotlib=3.3.0 
+(smap) mbillah@mbillah-HP-Laptop-15s-dy0xxx:~$ conda install numpy=1.19.2 pillow=8.2.0
+(smap) mbillah@mbillah-HP-Laptop-15s-dy0xxx:~$ conda install scikit-image=0.17.2 scipy=1.5.2
+(smap) mbillah@mbillah-HP-Laptop-15s-dy0xxx:~$ conda install pytorch=1.7
+(smap) mbillah@mbillah-HP-Laptop-15s-dy0xxx:~$ conda install torchvision==0.8.2
