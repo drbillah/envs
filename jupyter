@@ -13,3 +13,9 @@
 (smap) mbillah@mbillah-HP-Laptop-15s-dy0xxx:~$ conda install scikit-image=0.17.2 scipy=1.5.2
 (smap) mbillah@mbillah-HP-Laptop-15s-dy0xxx:~$ conda install pytorch=1.7
 (smap) mbillah@mbillah-HP-Laptop-15s-dy0xxx:~$ conda install torchvision==0.8.2
+
+conda create -n keras-gpu pip python=3.6    
+conda activate keras-gpu
+pip install tensorflow-gpu==1.13.1 
+pip install keras==2.2.4
+
